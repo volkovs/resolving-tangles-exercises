@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>com.github.volkovs</groupId>
+        <artifactId>tangle-exercises</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <artifactId>tangle-exercises-solutions</artifactId>
+    <name>Tangle exercise solutions</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>exercise1_WrongPackage</module>
+        <module>exercise2_WrongRelationship</module>
+        <module>exercise3_Introducing3-rdModule</module>
+        <module>exercise4_ExtractingInterface</module>
+        <module>exercise5_DependencyInjection</module>
+        <module>exercise6_ServiceRegistry</module>
+        <module>exercise7_FreeStyle</module>
+    </modules>
+
+</project>
+

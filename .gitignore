@@ -1,0 +1,29 @@
+# Maven
+target/
+*.versionsBackup
+
+# Work litter
+.classpath
+.idea
+.nbattrs
+.project
+.settings
+.DS_Store
+*~
+*.bak
+*.class
+*.hi
+*.iml
+*.ipr
+*.iws
+*.lock
+*.o
+*.out
+*.sublime-project
+*.sublime-workspace
+*.swo
+*.swp
+*.tmproj
+dump.*.db
+Thumbs.db
+worskpace.xml
